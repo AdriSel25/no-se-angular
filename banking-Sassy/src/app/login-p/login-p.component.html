@@ -1,0 +1,30 @@
+<section class="cont-prin">
+    <div class="cont-prin-log colo-celeste flex-center">
+        <div class="cont-iz-ar">
+            <img src="/assets/LogoConsulTec.png" alt="ConsulTec">
+            <h2>Te damos la bienvenida al portal Personal Banking</h2>
+            <p>Eres nuevo en el banco <br><a href="registro.html">Crea tu clave</a></p>
+        </div>
+        <div class="cont-iz-ab">
+            <p>¿Aún no tienes una cuenta? <br><a href="registro.html" class="link-celeste">Registrate ahora</a></p>
+        </div>
+    </div>
+    <div class="cont-prin-log color-wh">
+        <div class="cont-flex">
+            <form action="" class="form-log" id="form-log">
+                <h1><span class="color-celeste">Inicio de</span> sesión</h1>
+                <div class="form-log-inp">
+                  <app-input-user></app-input-user>
+                  <app-input-passw></app-input-passw>
+                    <p class="p-black">¿Tienes problemas con tu cuenta? <a href="#" class="link-celeste">Recuperar
+                            contraseña</a>
+                    </p>
+                </div>
+                <app-btn-submit></app-btn-submit>
+                <p id="error-message" class="error-message"></p>  <!-- Ensure the ID is 'error-message' -->
+            </form>
+        </div>
+  
+    </div>
+  </section>
+  <script src="./js/login.js"></script>
